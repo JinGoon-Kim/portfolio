@@ -11,6 +11,26 @@
 <head>
 <meta charset="UTF-8">
 <title>Jin's Home</title>
+
+<style type="text/css">
+	body {margin: 0px;}
+	#headerBox {/* background: black; */ width: 100%; height: 100px; border: 1px solid black;}
+</style>
+
 </head>
 <body>
-
+	<header>
+		<div id="headerBox">
+			<div>
+				<div>
+					개인 게시판
+				</div>
+				<div>
+					방명록
+				</div>
+				<div>
+					깃허브
+				</div>
+			</div>
+		</div>
+	</header>

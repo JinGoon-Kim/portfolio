@@ -11,6 +11,19 @@ public class IndexController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index(Model model, HttpServletRequest request) {
+		
 		return "index";
+	}
+	
+	@RequestMapping("personalbd")
+	public String personalbd(Model model, HttpServletRequest request) {
+		
+		return "board/personalbd";
+	}
+	
+	@RequestMapping("visitorbd")
+	public String visitorbd(Model model, HttpServletRequest request) {
+		
+		return "board/visitorbd";
 	}
 }

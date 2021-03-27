@@ -21,16 +21,27 @@
 <body>
 	<header>
 		<div id="headerBox">
+			<a href="/">
+				<div>
+					Home
+				</div>
+			</a>
 			<div>
-				<div>
-					개인 게시판
-				</div>
-				<div>
-					방명록
-				</div>
-				<div>
-					깃허브
-				</div>
+				<a href="personalbd">
+					<div>
+						개인 게시판
+					</div>
+				</a>
+				<a href="visitorbd">
+					<div>
+						방명록
+					</div>
+				</a>
+				<a href="https://github.com/JinGoon-Kim">
+					<div>
+						깃허브
+					</div>
+				</a>
 			</div>
 		</div>
 	</header>

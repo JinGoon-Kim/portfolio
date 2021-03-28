@@ -9,9 +9,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="resources/css/index.css">
 <meta charset="UTF-8">
 <title>Jin's Home</title>
-
+<script src="https://kit.fontawesome.com/aeb6e503f2.js" crossorigin="anonymous"></script>
 <style type="text/css">
 	body {margin: 0px;}
 	#headerBox {/* background: black; */ width: 100%; height: 100px; border: 1px solid black;}

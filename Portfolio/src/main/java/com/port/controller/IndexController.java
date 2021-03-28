@@ -26,4 +26,16 @@ public class IndexController {
 		
 		return "board/visitorbd";
 	}
+	
+	@RequestMapping("index00")
+	public String index00(Model model, HttpServletRequest request) {
+		
+		return "include/ajax/index/index00";
+	}
+	
+	@RequestMapping("index01")
+	public String index01(Model model, HttpServletRequest request) {
+		
+		return "include/ajax/index/index01";
+	}
 }

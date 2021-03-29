@@ -23,20 +23,4 @@
 			</div>
 		</div>
 	</div>
-	<button id="downScroll"><i class="fas fa-chevron-down"></i></button>
 </div>
-<script type="text/javascript">
-	document.getElementById('downScroll').addEventListener('click', loadIndex01);
-	
-	function loadIndex01() {
-		var xhr = new XMLHttpRequest();
-		xhr.open('Get', 'index01', true)
-		
-		xhr.onload = function() {
-			if(this.status == 200){
-				document.getElementById('indexContent').innerHTML = this.responseText;
-			}
-		}
-		xhr.send();
-	}
-</script>

@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<button id="upScroll"><i class="fas fa-chevron-up"></i></button>
 <div id = "index01">
 	<table>
 		<tr>
@@ -18,20 +17,3 @@
 		</tr>
 	</table>
 </div>
-
-<script type="text/javascript">
-	document.getElementById('upScroll').addEventListener('click', loadIndex00);
-	
-	function loadIndex00() {
-		var xhr = new XMLHttpRequest();
-		xhr.open('Get', 'index00', true)
-		console.log(this.responseText);
-		xhr.onload = function() {
-			if(this.status == 200){
-				console.log(this.responseText);
-				document.getElementById('indexContent').innerHTML = this.responseText;
-			}
-		}
-		xhr.send();
-	}
-</script>

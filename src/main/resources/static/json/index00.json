@@ -1,0 +1,15 @@
+{	
+	"ownerInfo" :[
+	{
+		"name" : "±èÁø±º"
+	}
+	],
+
+	"greeting" : [
+		{
+		    "content":"greeting",
+		    "name":"Rick",
+		    "email":"rick@gmail.com"
+		}
+	]
+}

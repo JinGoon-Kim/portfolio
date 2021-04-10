@@ -3,7 +3,7 @@
 <%@ include file="include/header.jsp" %>
 
 <style type="text/css">
-	#viewBox {/* background: black; */ width: 100%; border: 1px solid black;}
+	#viewBox {/* background: black; */ width: 950px; border: 1px solid black; margin: 0 auto;}
 	
 </style>
 

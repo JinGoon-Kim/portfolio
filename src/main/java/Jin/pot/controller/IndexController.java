@@ -1,4 +1,4 @@
-package com.port.controller;
+package Jin.pot.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

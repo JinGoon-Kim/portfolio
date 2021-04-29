@@ -1,13 +1,13 @@
-package com.port;
+package Jin.pot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PortfolioApplication {
+public class PortfolioWarApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PortfolioApplication.class, args);
+		SpringApplication.run(PortfolioWarApplication.class, args);
 	}
 
 }

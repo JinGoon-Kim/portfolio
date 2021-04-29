@@ -1,10 +1,11 @@
 plugins {
-	id 'org.springframework.boot' version '2.4.3'
+	id 'org.springframework.boot' version '2.4.5'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'war'
 }
 
-group = 'com.port'
+group = 'Jin.pot'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -18,7 +19,7 @@ repositories {
 	mavenCentral()
 }
 
-dependencies {
+dependencies {	
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -31,7 +32,7 @@ dependencies {
 	compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
 	implementation 'javax.servlet:jstl'
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-	runtimeOnly 'com.oracle.database.jdbc:ojdbc8'
+	runtimeOnly 'mysql:mysql-connector-java'
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 

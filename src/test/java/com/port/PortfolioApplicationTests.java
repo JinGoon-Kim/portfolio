@@ -1,10 +1,10 @@
-package Jin.pot;
+package com.port;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PortfolioWarApplicationTests {
+class PortfolioApplicationTests {
 
 	@Test
 	void contextLoads() {

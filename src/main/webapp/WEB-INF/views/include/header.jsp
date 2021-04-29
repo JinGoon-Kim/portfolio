@@ -40,7 +40,7 @@
 				<div id ="headerR">
 					<a href="personalbd">
 						<div class="headerA">
-							개인 게시판
+							소식
 						</div>
 					</a>
 					<a href="visitorbd">
